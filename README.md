@@ -89,7 +89,7 @@ The model is a simple CNN with the following structure:
 
 The model achieves approximately 65-70% accuracy on the CIFAR-10 test set with just 5 epochs of training.
 
-Example output:
+output:
 ```
 Epoch 5/5: Train Loss: 0.8943, Val Loss: 0.9021
 Train Acc: 68.20%, Val Acc: 67.80%
