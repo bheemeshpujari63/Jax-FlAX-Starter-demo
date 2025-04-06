@@ -1,0 +1,7 @@
+jax 
+flax 
+optax 
+torch 
+torchvision 
+scikit-learn
+matplotlib
