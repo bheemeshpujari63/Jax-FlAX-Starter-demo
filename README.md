@@ -15,13 +15,16 @@ This project serves as a **reference implementation** for researchers/developers
 1. **Install dependencies** (JAX + Flax + data tools):
    ```bash
    pip install jax flax optax torch torchvision scikit-learn 
-# CIFAR-10 Image Classifier with JAX and Flax
 
-This project implements a Convolutional Neural Network (CNN) for classifying images from the CIFAR-10 dataset using JAX and Flax.
+2. Clone this repository:
+   ```
+   git clone https://github.com/bheemeshpujari63/cifar10-classifier.git
+   cd cifar10-classifier
+   ```
 
 ## Overview
 
-The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes (airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck), with 6,000 images per class. This project builds a simple CNN model to classify these images.
+The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes (airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck), with 6,000 images per class. This project builds a simple CNN model to classify these images using Jax and Flax.
 
 ## Features
 
@@ -40,18 +43,6 @@ The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes (airpla
 - Scikit-learn for evaluation metrics
 - PyTorch/TorchVision for data loading (CIFAR-10)
 
-## Installation
-
-1. Clone this repository:
-   ```
-   git clone https://github.com/yourusername/cifar10-classifier.git
-   cd cifar10-classifier
-   ```
-
-2. Install the required packages:
-   ```
-   pip install -r requirements.txt
-   ```
 
 ## Project Structure
 
